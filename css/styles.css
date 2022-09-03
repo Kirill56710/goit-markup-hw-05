@@ -95,6 +95,7 @@ header {
   margin-left: auto;
 }
 .site-link {
+  position: relative;
   color: var(--color-text-title);
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -110,8 +111,6 @@ header {
 .site-link:hover,
 .site-link:focus {
   color: #2196f3;
-}
-.curent {
 }
 .site-link.curent {
   color: var(--color-accent);
